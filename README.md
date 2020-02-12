@@ -26,32 +26,32 @@ This analysis project uses simulated data provided by Starbucks. Key objects are
 
 Overview of the data schema and its variables:
 
- portfolio.json
- id (string) - offer id
- offer_type (string) - type of offer ie BOGO, discount, informational
- difficulty (int) - minimum required spend to complete an offer
- reward (int) - reward given for completing an offer
- duration (int) - time for offer to be open, in days
- channels (list of strings)
+ portfolio.json<br/>
+ id (string) - offer id<br/>
+ offer_type (string) - type of offer ie BOGO, discount, informational<br/>
+ difficulty (int) - minimum required spend to complete an offer<br/>
+ reward (int) - reward given for completing an offer<br/>
+ duration (int) - time for offer to be open, in days<br/>
+ channels (list of strings)<br/>
 
- profile.json
- age (int) - age of the customer
- became_member_on (int) - date when customer created an app account
- gender (str) - gender of the customer
- id (str) - customer id
- income (float) - customer's income
+ profile.json<br/>
+ age (int) - age of the customer<br/>
+ became_member_on (int) - date when customer created an app account<br/>
+ gender (str) - gender of the customer<br/>
+ id (str) - customer id<br/>
+ income (float) - customer's income<br/>
 
- transcript.json
- event (str) - record description (ie transaction, offer received, offer viewed, etc.)
- person (str) - customer id
- time (int) - time in hours since start of test. The data begins at time t=0
- value - (dict of strings) - either an offer id or transaction amount depending on the record
+ transcript.json<br/>
+ event (str) - record description (ie transaction, offer received, offer viewed, etc.)<br/>
+ person (str) - customer id<br/>
+ time (int) - time in hours since start of test. The data begins at time t=0<br/>
+ value - (dict of strings) - either an offer id or transaction amount depending on the record<br/>
 
-Files in this repository:
+Files in this repository:<br/>
 
- Starbucks_Capstone_notebook.ipynb - Jupyter Notebook with data analysis
- rfc.sav - exported Random Forrest classifier
- gradboost.sav - exported Gradient Boosted Classifier
+ Starbucks_Capstone_notebook.ipynb - Jupyter Notebook with data analysis<br/>
+ rfc.sav - exported Random Forrest classifier<br/>
+ gradboost.sav - exported Gradient Boosted Classifier<br/>
 
 ### Data Preparation and Modeling
 
